@@ -1,5 +1,7 @@
 # Patch existing docker images with ENV LOG4J_FORMAT_MSG_NO_LOOKUPS=true workaround for Log4Shell
 
+NOTICE! THERE IS A NEWER Log4Shell issue, [CVE-2021-45046](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45046) and this patch might not be sufficient!
+
 see the [Dockerfile](Dockerfile)
 
 Add environment based workaround to disable vulnerable feature in Log4J 2.10.0+.
